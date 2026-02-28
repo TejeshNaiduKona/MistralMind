@@ -1,0 +1,30 @@
+# MistralMind — Requirements
+# Install order: pip install -r requirements.txt
+# Then: pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+
+# Core ML
+torch>=2.1.0
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.27.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
+
+# Training
+trl>=0.8.6
+scipy>=1.10.0
+
+# Experiment Tracking
+wandb>=0.16.0
+
+# Mistral API
+mistralai>=1.0.0
+
+# Demo
+gradio>=4.26.0
+
+# Utilities
+python-dotenv>=1.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+huggingface_hub>=0.20.0
